@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="loginform.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Image/logo.png" alt="Disney+ Hotstar Logo" class="logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Movies</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Sports</a>
+                <a href="#">Premium</a>
+                <a href="#">Kids</a>
+                <a href="#" id="loginLink" class="login-link">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login to Disney+ Hotstar</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="loginform.js"></script>
+</body>
+</html>
