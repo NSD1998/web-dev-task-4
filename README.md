@@ -2,7 +2,7 @@
 Created a clone for Disney + Hotstar
 
 
-
+https://github.com/NSD1998/web-dev-task-4.git
 
 This project is a clone of Disney+ Hotstar, created using HTML, CSS, and JavaScript. It aims to replicate the basic functionalities and design elements of the popular streaming platform.
 
