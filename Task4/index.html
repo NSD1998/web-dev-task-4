@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+Hotstar_Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="Image/logo.png" class="logo" alt="Disney+ Hotstar Logo">
+        <ul class="nav-links">
+            <li><a class="nav-items"href="#">TV</a></li>
+            <li><a class="nav-items"href="#">Movies</a></li>
+            <li><a class="nav-items"href="#">Sports</a></li>
+            <li><a class="nav-items"href="#">Premium</a></li>
+            <li><a class="nav-items"href="#">Disney+</a></li>
+            <li><a class="nav-items"href="#" class="kids">KIDS</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" id ="search-box"class="search-box" placeholder="Search">
+            <button id ="search-button"class="Search">Search</button>
+            <a href="Loginform.html" class="login-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- Slide will be added dynamically -->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="Image/disney.PNG" class="video-card-image" alt="Disney Logo">
+            <video src="videos/disney.mp4" muted loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+          <img src="Image/pixar.PNG" class="video-card-image" alt="This is pixer logo">
+          <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+      </div>
+
+      <div class="video-card">
+        <img src="Image/marvel.PNG" class="video-card-image" alt="This is marvel logo">
+        <video src="videos/marvel.mp4" muted loop class="card-video"></video>
+    </div>
+
+    <div class="video-card">
+      <img src="Image/star-wars.PNG" class="video-card-image" alt="This is Star Wars logo">
+      <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+  </div>
+  <div class="video-card">
+    <img src="Image/geographic.PNG" class="video-card-image" alt="This is geographic logo">
+    <video src="videos/geographic.mp4" muted loop class="card-video"></video>
+</div>
+    </div>
+
+    <!--Trending movies-->
+    
+    <h1 class="title">Trending movies</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="Previous">
+            <img src="Image/pre.png" alt="Previous Button" >
+        </button>
+        <button class="nxt-btn" title="Next">
+            <img src="Image/nxt.png" alt="Next Button">
+        </button>
+        <div class="card-container">
+          
+
+            <div class="card" data-name="12th fail">
+            
+                <img src="Image/12thfail.jpg" alt="movie" class="card-img"  >
+                <div class="card-body">
+                  <h2 class="name">12th fail</h2>
+                  <h6 class="des">
+                    It is based on the 2019 eponymous non-fiction book by Anurag Pathak about Manoj Kumar Sharma, who overcame extreme poverty to become an Indian Police Service officer</h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="Aavesham">
+             
+                <img src="Image/Aavesham.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Aavesham</h2>
+                  <h6 class="des">
+                    Aavesham is pure romancham....directed by jithu madhav director of romancham. aavesham is a story of three college students who involves with a local goon for seeking their revenge against college seniors and the conflicts which happens on the later half..it is purely a fun filled action movie with great FAFA show</h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="">
+                <img src="Image/Do aur do pyaar.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Do-Aur-Do-Pyaar</h2>
+                  <h6 class="des">
+                    It is based on the 2019 eponymous non-fiction book by Anurag Pathak about Manoj Kumar Sharma, who overcame extreme poverty to become an Indian Police Service officer</h6>   
+                </div>
+              </div>
+              <div class="card" data-name="Black Panther: Wakanda Forever">
+                
+                <img src="Image/black panther.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Black Panther: Wakanda Forever</h2>
+                  <h6 class="des">
+                    The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa. Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect the kingdom of Wakanda from intervening world powers in the wake of King T'Challa's death.</h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="Lover">
+            
+                <img src="Image/Lover.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Lover</h2>
+                  <h6 class="des">
+                    [Arun (Manikandan) is a troubled young man whose frustrations are fueled by the unhappy relationship of his parents (Bigg Boss Saravanan and Geetha Kailasam) and his failures to start his own restaurant business.</h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="Avatar: The Way of Water">
+                
+                <img src="Image/avatar-the-way-of-water.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Avatar: The Way of Water </h2>
+                  <h6 class="des">
+                    Set more than a decade after the events of the first film, "Avatar: The Way of Water" begins to tell the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.</h6>
+                  
+                </div>
+              </div>
+              <div class="card"data-name=" Manjummel Boys">
+              
+                <img src="Image/Manjummelboys.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">
+                    Manjummel Boys</h2>
+                  <h6 class="des">
+                    The film follows a group of friends from a small town called Manjummel near Kochi, who decide to have a vacation in Kodaikanal, which is affected when one of them becomes trapped in the Guna Caves.</h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="Joe">
+        
+                <img src="Image/joe.jpg" alt="movie" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Joe</h2>
+                  <h6 class="des">
+                    Joe is a 2023 Indian Tamil-language romantic drama film written and directed by Hariharan Ram S. in his directorial debut. The film stars Rio Raj in the titular role as well as Malavika Manoj and Bhavya Trikha featuring in lead roles, whilst the plot of the film is formed around Joe's emotional journey about love.
+                    </h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="Kala Patthar">
+               
+                <img src="Image/Kala patthar.jpg" alt="" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Kala Patthar</h2>
+                  <h6 class="des">
+                    Inspired by a true mining tragedy the film is about people from all walks of life showing courage and character to fight the forces of nature. </h6>
+                  
+                </div>
+              </div>
+              <div class="card" data-name="Tanhaji">
+              
+                <img src="Image/Tanaji.jpg" alt="" class="card-img">
+                <div class="card-body">
+                  <h2 class="name">Tanhaji</h2>
+                  <h6 class="des">
+                    In 1647, Tanhaji's father taught sword fight. Soon, he passed away. After 17 years, an adult Tanhaji, the right man of Shivaji Maharaj carries conquests on behalf of Shivaji Maharaj. Aurangzeb, the Mughal Ruler sends one of his powerful generals to crush the power of Marathas.
+                    </h6>
+                    
+                </div>
+              </div>
+        </div>
+    </div>
+<!-- Series -->
+
+<h1 class="title">Series</h1>
+<div class="movies-list">
+    <button class="pre-btn" title="Previous">
+        <img src="Image/pre.png" alt="Previous Button">
+    </button>
+    <button class="nxt-btn" title="Next">
+        <img src="Image/nxt.png" alt="Next Button">
+    </button>
+    <div class="card-container">
+        <div class="card" data-name="Loki">
+          
+
+          <img src="Image/Loki.png" alt="Series" class="card-img">
+
+            <div class="card-body">
+              <h2 class="name">Loki</h2>
+              <h6 class="des">
+                In Marvel Studios' “Loki,” the mercurial villain Loki (Tom Hiddleston) resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.
+                </h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="Bahubali Crown of Blood">
+          
+        <img src="Image/Bahubali.jpg" alt="Series" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Bahubali Crown of Blood</h2>
+              <h6 class="des">
+                For fans of the films, "Crown of Blood" offers a captivating glimpse into the early lives of Baahubali and Bhallaladeva, the sworn brothers destined for conflict. In short, good for time pass. Efforts of creators must be appreciated to dare to create something new and diving into the animated realm.</h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="The Legend of Hanuman">
+         
+            <img src="Image/Hanuman.jpg" alt="Series" class="card-img">
+            <div class="card-body">
+              <h2 class="name">The Legend of Hanuman</h2>
+              <h6 class="des">
+                The series follows when God Mahadev incarnates as Hanuman to serve God Rama and his transformation from a mighty warrior to a god and how Hanuman became the beacon of hope amidst the harrowing darkness.
+                </h6>
+          
+            </div>
+          </div>
+          <div class="card" data-name="Moon Knight">
+           
+        <img src="Image/Moon knight.jpg" alt="Series" class="card-img">
+        <div class="card-body">
+          <h2 class="name">
+            Moon Knight</h2>
+              <h6 class="des">
+                It follows Marc Spector and Steven Grant, two alters of a man with dissociative identity disorder (DID), as they are drawn into a mystery involving Egyptian gods.</h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="Last of us">
+         
+            <img src="Image/Last of us.jpg" alt="Series" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Last of us</h2>
+              <h6 class="des">
+                Based on the video game franchise developed by Naughty Dog, the series is set twenty years into a pandemic caused by a mass fungal infection, which causes its hosts to transform into zombie-like creatures and causes the collapse of society.</h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="Aarya">
+        
+            <img src="Image/Aarya.jpg" alt="Series" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Aarya</h2>
+              <h6 class="des">
+                The series is about Aarya, an independent woman who seeks to protect her family and joins a mafia gang in order to get revenge for her husband's murder. </h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="Special Ops">
+         
+        <img src="Image/Special ops.jpg" alt="Series" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Special Ops</h2>
+              <h6 class="des">
+                The series follows Himmat Singh (Menon) of the Research and Analysis Wing who finds similar patterns in terrorist attacks and is convinced a single person is behind all the attacks. His task force team of five agents living in various parts of the world aim to catch the mastermind.</h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="Criminal Justice">
+           
+        <img src="Image/Criminal Justice.jpg" alt="Series" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Criminal Justice</h2>
+              <h6 class="des">
+                Driving his family's cab for one night, Aditya picks up a young woman, Sanaya, and ends up spending the evening with her. After a night of sex and drugs, he wakes up to find her stabbed to death but has no recollection of what happened. Suitable only for 15 years and over
+                </h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="The Indian Edtec story">
+          
+        <img src="Image/The Indian edtec story.jpg" alt="Series" class="card-img">
+        <div class="card-body">
+          <h2 class="name">The Indian Edtec story</h2>
+              <h6 class="des">
+                Armed with a modest seed capital, Arun, Sri Devi, and Balamurugan embarked on an entrepreneurial odyssey that is redefining India's educational landscape </h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="The Acolyte">
+      
+        <img src="Image/The Acolyte.jpg" alt="Series" class="card-img">
+        <div class="card-body">
+          <h2 class="name">The Acolyte</h2>
+              <h6 class="des">
+                After a shocking crime in the distant reaches of the galaxy, the Jedi Order track down a prime suspect. An assassin strikes again on a far-flung world. This time the investigating Jedi team is there to attempt a capture. On a forested world, a rite of passage sets off the tragic journey of two sisters.
+                </h6>
+                
+            </div>
+          </div>
+    </div>
+</div>
+
+  <!-- Recommemded -->
+  <h1 class="title">Recommended Content</h1>
+  <div class="movies-list">
+    <button class="pre-btn" title="Previous">
+      <img src="Image/pre.png" alt="Previous Button">
+  </button>
+  <button class="nxt-btn" title="Next">
+      <img src="Image/nxt.png" alt="Next Button">
+  </button>
+    <div class="card-container">
+        <div class="card" data-name="Vikram">
+          
+            <img src="Image/vikram.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Vikram</h2>
+              <h6 class="des"> The film follows Vikram, a former commander of the black-ops squad's pilot batch, and his efforts to take down Sandhanam, the runner of a drug syndicate Vetti Vagaiyara.</h6>
+ 
+            </div>
+          </div>
+          <div class="card" data-name="Jersey">
+            
+            <img src="Image/Jersey.jpg" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Jersey</h2>
+              <h6 class="des">The storyline follows Arjun (Nani), a talented but failed cricketer who decides to return to cricket in his mid-30s, driven by the desire to represent the Indian cricket team, and fulfill his son's wish for a jersey as a gift.</h6>
+
+            </div>
+          </div>
+          <div class="card" data-name="
+          Ford v Ferrari">
+            <a href="detail.html?id=23"></a>
+            <img src="Image/fvsf.png" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Ford v Ferrari</h2>
+              <h6 class="des"></h6>
+              Plot. In 1963, Ford Motor Company Vice President Lee Iacocca proposes to Henry Ford II to boost their car sales by purchasing Ferrari, dominant in the 24 Hours of Le Mans.
+            </div>
+          </div>
+          <div class="card" data-name="Ratsasan">
+         
+            <img src="Image/Ratsasan.jpg" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Ratsasan</h2>
+              <h6 class="des">The film tells the story of an aspiring film director who becomes a police officer after his father's death and tries to track down a serial killer. The film was released on 5 October 2018 to generally positive critical reviews.</h6>
+           
+            </div>
+          </div>
+          <div class="card" data-name="Uyare">
+       
+            <img src="Image/Uyare.jpg" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Uyare</h2>
+              <h6 class="des">The film stars Parvathy Thiruvothu, Asif Ali and Tovino Thomas with Siddique, Anarkali Marikar and Prathap Pothen in supporting roles. The story follows the life of Pallavi Raveendran (Parvathy), an aviation student who survives an acid attack that jeopardizes her career.</h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="Farzand">
+           
+            <img src="Image/farzand.jpg" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Farzand</h2>
+              <h6 class="des">Farzand follows the story of warrior Kondaji Farzand, who along with 60 warriors defeated 2500 soldiers of the enemy to win the Panhala fort in just three and half hours in 1673.</h6>
+              
+            </div>
+          </div>
+          <div class="card" data-name="">
+          
+            <img src="Image/soul.png" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Soul</h2>
+              <h6 class="des">Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul. Everybody has a soul.</h6>
+             
+            </div>
+          </div>
+          <div class="card" data-name="Raya">
+        
+            <img src="Image/Rayan.png" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Raya</h2>
+              <h6 class="des">Raya, a fallen princess, must track down the legendary last dragon to stop the evil forces that have returned and threaten her world.</h6>
+
+            </div>
+          </div>
+          <div class="card" data-name="Brahmastra">
+      
+            <img src="Image/Brahmastra.jpg" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Brahmastra</h2>
+              <h6 class="des">The Brahmastra (IAST: Brahmāstra) is an astra (supernatural weapon) that is one of the most destructive, powerful, and irresistible weapons mentioned in Hinduism</h6>
+
+            </div>
+          </div>
+          <div class="card" data-name="Mahabharat">
+        
+            <img src="Image/Mahabharat.jpg" alt="Recommemded" class="card-img">
+            <div class="card-body">
+              <h2 class="name">Mahabharat</h2>
+              <h6 class="des">The Mahabharata is an ancient Indian epic where the main story revolves around two branches of a family - the Pandavas and Kauravas - who, in the Kurukshetra War, battle for the throne of Hastinapura.</h6>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    
+       <div id="loading-indicator" class="loadind-indicator" style="display: none;">Searching.....</div>   
+
+       <!-- Footer -->
+<!-- <footer>
+  <div class="footer-content">
+      <div class="footer-logo">
+          <img src="Image/logo.png" alt="Footer Logo">
+      </div>
+      <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+      </div>
+  </div>
+  <div class="footer-social">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+  </div>
+  <div class="footer-text">
+      <p>&copy; 2024 Disney Hotstar. All rights reserved.</p>
+  </div>
+</footer> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
